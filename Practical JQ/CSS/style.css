@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* -----------------------------------------------------HEADER----------------------------------------------------------------------- */
+header {
+  display: grid;
+  grid-template-columns: 100px 150px 120px 160px 100px 150px 90px 90px 250px;
+  width: 100%;
+  height: 65px;
+  background: #1e306e;
+  justify-content: center;
+}
+
+.Menu {
+  color: #fff;
+  text-align: center;
+  align-self: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Menu:hover{
+    color: #298cd3;
+    font-size: 17px;
+}
+
+.icon {
+  color: #fff;
+  text-align: center;
+  align-self: center;
+  font-size: 16px;
+  justify-self: end;
+  cursor: pointer;
+}
+
+.icon .fa-search {
+  padding-right: 20px;
+}
+
+/*--------------------------------------------------------SECTION--------------------------------------------------------------------------- */
+.background {
+  width: 100%;
+  height: 882px;
+  background: #e0f3fd;
+  padding: 90px 0px 0px;
+  justify-content: center;
+}
+
+.bg-text {
+  font-size: 40px;
+  text-align: center;
+  color: #1e306e;
+  padding-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.sub-text {
+  font-size: 18px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.bg-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.bg-btn button {
+  padding: 20px 40px;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 25px;
+  background: #1e306e;
+  color: #fff;
+}
+
+.bg-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 62px;
+}
+
+.Services {
+  width: 100%;
+  height: 900px;
+  padding-top: 100px;
+}
+
+.ser-sub-text {
+  font-size: 20px;
+  text-align: center;
+  color: #298cd3;
+}
+
+.ser-main-text {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 40px;
+  color: #1e306e;
+}
+
+.ser-grids {
+  display: grid;
+  grid-template-columns: 260px 260px 260px 260px;
+  grid-template-rows: 260px;
+  justify-content: center;
+  padding-top: 50px;
+  column-gap: 30px;
+}
+
+.ser-grid {
+  border: 1px solid rgb(188, 188, 188);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #1e306e;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.ser-grid i {
+  font-size: 70px;
+  padding-top: 40px;
+}
+
+.ser-grid h4 {
+  font-size: 18px;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+
+.Features {
+  margin-top: 150px;
+}
+
+.Fea-sub-text {
+  font-size: 20px;
+  text-align: center;
+  color: #298cd3;
+}
+
+.Fea-main-text {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 40px;
+  color: #1e306e;
+}
+
+/*------------------------------------------------------COUNTER------------------------------------------------------------------------------- */
+
+.container {
+  display: flex;
+  /*   justify-content:center; */
+  margin-top: 3rem;
+}
+.counterjs {
+  margin: 1.5%;
+  background-color: #8067bd;
+  width: 250px;
+  border-radius: 10px;
+  height: 250px;
+  vertical-align: middle;
+  margin-left: 13%;
+}
+
+.counterjs2 {
+  margin: 1.5%;
+  background-color: #f8f5ff;
+  width: 250px;
+  border-radius: 10px;
+  height: 250px;
+  vertical-align: middle;
+}
+
+.counter {
+  font-size: 70px;
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.counter-text {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.counter2 {
+  font-size: 70px;
+  text-align: center;
+  color: #8067bd;
+  padding-top: 40px;
+}
+
+.counter-text2 {
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.Fea-text {
+  width: 50%;
+  margin-right: 13%;
+  margin-left: 50px;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.Fea-text h3 {
+  font-size: 44px;
+  padding-bottom: 30px;
+}
+
+.Fea-text p {
+  font-size: 18px;
+}
+
+.bg-btn2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.bg-btn2 button {
+  padding: 10px 30px;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 25px;
+  background: #1e306e;
+  color: #fff;
+}
+
+/*-----------------------------------------------------------SECTION 3----------------------------------------------------------------------- */
+
+.Sec3 {
+  display: grid;
+  grid-template-columns: 590px 590px;
+  grid-template-rows: 440px;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.Sec3-Text {
+  margin-right: 118px;
+  padding: 16px 10px 10px;
+}
+
+.sec3-h3 {
+  font-size: 34px;
+  padding-bottom: 30px;
+}
+
+.Sec3-Text p {
+  font-size: 18px;
+}
+
+.Sec3-Text ul {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.bg-btn3 {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 30px;
+}
+
+.bg-btn3 button {
+  padding: 10px 30px;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 25px;
+  background: #1e306e;
+  color: #fff;
+}
+
+button:hover{
+    background: #8067bd;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+}
+
+/*---------------------------------------------------------FOOTER-------------------------------------------------------------------- */
+
+footer {
+  background: #1E306E;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 500px 300px 300px 300px;
+  height: 350px;
+  justify-content: center;
+  padding-top: 30px;
+  margin-top: 100px;
+}
+
+.footer-icon {
+  margin-top: 20px;
+  font-size: 20px;
+  word-spacing: 40px;
+  cursor: pointer;
+}
+
+.footer h2,
+.footer p {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.footer h2,
+.footer p {
+  color: #fff;
+}
+
+
+
+.footer-ul {
+  justify-self: center;
+}
+.footer-ul ul li {
+  color: #fff;
+  list-style: none;
+  line-height: 50px;
+  justify-self: center;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.footer-ul ul li:hover{
+    color: #89CCF7;
+}
+
+/*----------------------------------------------------ACCORDIAN FAQs----------------------------------------------------------------------------- */
+
+.main-content {
+  margin: 40px 30% 40px 30%;
+  width: 40%;
+}
+.description-title {
+  font-size: 26px;
+  background-color: rgb(55, 154, 184);
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  line-height: 55px;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.expand-collapse {
+  float: right;
+  margin-right: 8px;
+}
+.description {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  max-height: 0;
+  overflow: hidden;
+  margin-left: 0px;
+  padding-left: 10px;
+  transition: max-height 0.2s ease-out;
+}
+
+/*----------------------------------------------------------END---------------------------------------------------------------------- */

@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Nunito", sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+}
+
+body{
+    font-family: "Nunito", sans-serif;
+}
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: url(/IMG/Prime\ BG\ img.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 685px;
+   
+    
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-template-rows: 1fr;
+    height: 70px;  
+}
+
+.MenuList {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    gap: 20px;
+}
+
+.MenuList a{
+    text-decoration: none;
+    color: #ffff;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.img{
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+
+}
+
+.img img{
+    width: 115px;
+    height: 50px;
+}
+
+.Menuicon{
+    justify-self: self-end;
+    align-self: center;
+    font-size: 25px;
+    display: flex;
+    gap: 25px;
+    color: #fff;
+}
+
+.productlist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 145px 1fr 75px;
+    padding-top: 95px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px 54px;
+    
+}
+
+.maintext{
+    font-size: 113px;
+    font-family: "Jost", sans-serif;
+    justify-self: center;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.maintext h2{
+    font-weight: 400;
+    letter-spacing: 30px;
+}
+
+.Product-Img-Main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Pack-Detail{
+    text-align: center;
+}
+
+.PackTitle{
+    font-size: 20px;
+    padding: 5px 0px 0px;
+    font-weight: 600;
+}
+
+.PrizeBtn , .PrizeBtn2{
+    text-align: center;
+}
+
+.PrizeBtn button{
+    font-size: 14px;
+    padding: 10px 25px 10px;
+    margin-top: 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.PR-btn button:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid black;
+    transition: ease;
+    transition-duration: 0.2s;
+}
+
+
+.PrizeBtn2 button{
+    font-size: 14px;
+    padding: 10px 25px 10px;
+    margin-top: 15px;
+    background-color: #fff;
+    color: #000;
+}
+
+.PrizeBtn2 button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    border: 2px solid black;
+}
+
+
+.primegrp{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    padding-top: 95px;
+    padding-bottom: 20px;
+    max-height: 500px;
+}
+
+.PR-GRP img {
+    width: 515px;
+    height: 490px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.PR-ICON{
+    justify-content: center;
+}
+
+.PR-ICON img , .PR-ICON .PR-btn{
+    width: 515px;
+    height: 350px;
+    
+}
+
+.PR-btn{
+    text-align: center;
+}
+
+.PR-btn button{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 50px;
+    margin: 15px 10px;
+    line-height: 25px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.PR-btn button:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid black;
+    transition: ease;
+    transition-duration: 0.2s;
+}
+
+
+.back-to-top {
+  background-color: white;
+  text-decoration: none;
+  cursor: pointer;
+  width: 56px;
+  height: 56px;
+  z-index: 999;
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 100%;
+  box-shadow: 0 4px 16px 0 rgba(black,0.4);
+}
+
+footer{
+    background: #000;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 500px 300px 300px 300px;
+    height: 500px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.footer-icon{
+    margin-top: 20px;
+    font-size: 20px; 
+    word-spacing: 40px;
+    cursor: pointer;
+}
+
+.footer h2, .footer p{
+    color: #fff;
+    margin-top: 10px;
+}
+.footer-ul{
+    justify-self: center;
+}
+.footer-ul ul li{
+    color: #fff;
+    list-style: none;
+    line-height: 50px;
+    justify-self: center;
+    font-weight: 500;
+    cursor: pointer;
+}
